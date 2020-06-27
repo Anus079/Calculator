@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- >>>Calculator code Start<<<< -->
+    <h1>A Simple Calculator</h1>
+
+    <div class="main-container">
+        <div class="inner">
+            <div class="input">
+                <input type="text"  id="view">
+            </div>
+           <table>
+               <tr>
+                   <td colspan="2"><input class="btn-1" type="button" onclick="clearresult()" value="C"></td>
+                   <td><input class="btn-1" onclick="getnumber('/')" type="button" value="/"></td>
+                   <td><input class="btn-1" onclick="getnumber('*')" type="button" value="X"></td>
+               </tr>
+               <tr>
+                   <td><input class="btn-1" onclick="getnumber('7')" type="button" value="7"></td>
+                   <td><input class="btn-1" onclick="getnumber('8')" type="button" value="8"></td>
+                   <td><input class="btn-1" onclick="getnumber('9')" type="button" value="9"></td>
+                   <td><input class="btn-1" onclick="getnumber('-')"type="button" value="-"></td>
+               </tr>
+               <tr>
+                   <td><input class="btn-1" onclick="getnumber('4')"type="button" value="4"></td>
+                   <td><input class="btn-1" onclick="getnumber('5')"type="button" value="5"></td>
+                   <td><input class="btn-1" onclick="getnumber('6')"type="button" value="6"></td>
+                   <td><input class="btn-1" onclick="getnumber('+')"type="button" value="+"></td>
+               </tr>
+               <tr>
+                   <td><input class="btn-1"onclick="getnumber('1')"type="button" value="1"></td>
+                   <td><input class="btn-1" onclick="getnumber('2')"type="button" value="2"></td>
+                   <td><input class="btn-1"onclick="getnumber('3')"type="button" value="3"></td>
+                   <td ><input class="btn-1" onclick="getresult()"type="button" value="="></td>
+               </tr>
+           </table>
+        </div>
+    </div>
+
+    <!-- >>>Calculator code End<<<< -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
