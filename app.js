@@ -24,5 +24,4 @@ function clearone() {
     var num = str.length;
     var str1 = str.slice(0, num - 1);
     view.value = str1;
-    console.log(str1)
 }
