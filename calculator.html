@@ -11,16 +11,17 @@
 <body>
 
     <!-- >>>Calculator code Start<<<< -->
-    <h1>A Simple Calculator</h1>
+    <h1>A Simple Calculator.</h1>
 
     <div class="main-container">
         <div class="inner">
             <div class="input">
-                <input type="text"  id="view">
+                <input type="text" onclick="open()"  id="view">
             </div>
            <table>
                <tr>
-                   <td colspan="2"><input class="btn-1" type="button" onclick="clearresult()" value="C"></td>
+                   <td><input class="btn-1" type="button" onclick="clearresult()" value="C"></td>
+                   <td><input class="btn-1" type="button" onclick="clearone()" value="<"></td>
                    <td><input class="btn-1" onclick="getnumber('/')" type="button" value="/"></td>
                    <td><input class="btn-1" onclick="getnumber('*')" type="button" value="X"></td>
                </tr>

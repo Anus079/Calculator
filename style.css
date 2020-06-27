@@ -7,7 +7,7 @@ h1{
     color: #ffffff;
     align-items: center;
     position: relative;
-    top: 10px;
+    top: 11px;
     font-weight: bold;
     
 }
@@ -20,7 +20,6 @@ h1{
 .inner{
     width: 420px;
     height: 440px;
-    /* background-color: #eaedef; */
     background-color: teal;
     margin: 0 auto;
     top: 0px;
